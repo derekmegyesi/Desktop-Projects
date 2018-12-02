@@ -23,7 +23,7 @@ public class CalculatorController {
 
             int firstNumber, secondNumber = 0;
 
-            // Surround interactions with the view with a try block in case the numbers weren't properly entered,
+            // Surround interactions with the view with a try block in case the numbers weren't properly entered.
             try {
 
                 firstNumber = theView.getFirstNumber();
